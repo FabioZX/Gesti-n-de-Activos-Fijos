@@ -1,0 +1,193 @@
+/* 
+    Created on : Jun 2, 2017, 3:56:26 PM
+    Author     : Fabio Victor
+*/
+
+*{
+    
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing:border-box;
+    box-sizing: border-box;
+    
+}
+
+.container{
+    
+    width: 90%;
+    margin: auto; 
+    padding-top: 37px; 
+}
+.zx{
+    
+    border-radius:5px;
+    box-shadow: 0px #424242;
+    
+}
+
+.container p{
+    
+    margin-bottom: 40px;
+    
+}
+
+body{
+    
+    background: #fffffa;
+    
+}
+
+header{
+    
+    width: 100%;
+    overflow: hidden;
+    background: #252932;
+    margin-bottom: 20px;
+    
+}
+
+
+header .logo{
+    
+    color: #f2f2f2;
+    font-size: 50px;
+    line-height: 200px;
+    float: left;
+    font-weight: bold;
+    
+}
+
+header nav{
+    
+    float: right;
+    line-height: 200px;
+    
+}
+
+header nav a{
+    
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    line-height: normal;
+    font-size: 20px;
+    font-weight: bold;
+    -webkit-transition: all ease 0.7s;
+    -o-transition: all ease 0.7s;
+    transition: all ease 0.7s;
+}
+
+header nav a:hover{
+    
+    background: #f56f3a;
+    border-radius: 50px;
+    
+}
+
+.header2{
+    
+    
+    position: fixed;
+    height: 100px;
+    
+}
+
+.header2 .logo{
+    
+    line-height: 50px;
+    font-size: 30px;
+    
+}
+
+.header2 nav{
+    
+    line-height: 50px;
+    
+}
+
+@media screen and (max-width: 95px){
+    
+    header .logo,
+    header nav{
+        
+        width: 100%;
+        text-align: center;
+        line-height: 100px;
+        
+    }
+    
+    .header2{
+        
+        height: auto;
+        
+    }
+    
+    .header2 .logo,
+    .header2 nav{
+        
+        line-height: 50px;
+        
+    }
+    
+}
+
+
+.input [type="submit"]{
+    
+    width: 323px;
+    height: 45px;
+    border: none;
+    background: steelblue;
+    color: white;
+    
+}
+
+.input2{
+    
+    display: block;
+    margin-bottom: 25px;
+    width: 100%;
+    border: 2px solid steelblue;
+    background: #FAF6D9;
+    
+}
+
+input[type="year"]{
+    
+    display: block;
+    margin-bottom: 25px;
+    width: 100%;
+    border: 2px solid steelblue;
+    background: #FAF6D9;
+    
+}
+
+input[type="month"]{
+    
+    display: block;
+    margin-bottom: 25px;
+    width: 100%;
+    border: 2px solid steelblue;
+    background: #FAF6D9;
+    
+}
+
+h2{
+    
+    text-align: center;
+    font-size: 50px;
+    color: steelblue;
+    
+}
+
+.lol [type="submit"]{
+    
+    width: 344px;
+    height: 45px;
+    border: none;
+    background: steelblue;
+    color: white;
+    
+}
